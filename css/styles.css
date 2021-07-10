@@ -1,0 +1,183 @@
+
+body{
+    margin: 0px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family:Arial, Helvetica, sans-serif;
+   
+    
+   
+}
+
+.profile{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+.profile p{
+    line-height: 2;
+}
+h1{
+    margin: 2.5rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.6rem;
+    color: #66BFBF;
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    color: #66BFBF;
+}
+h3{
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+p{
+    color: #40514E;
+}
+hr{
+    border-style: dotted none none none;
+    margin-top: 75px;
+    color: #747a7a;
+    width: 5%;
+    border-width: 7px;
+    height: 50px;
+    
+
+}
+.top-container{
+    padding: 100px;
+    padding-bottom: 0;
+    background-color: #EAF6F6;
+    text-align: center;
+    line-height: 2; 
+}
+.bottom-cloud{
+    position:absolute;
+    left:300px;
+}
+.top-cloud{
+    right: 250px;
+    position:absolute;
+    top: 50px;
+    
+}
+.mountain{
+    position:relative;
+    bottom:100px;
+}
+#who-me{
+    font-weight: normal;
+}
+
+.profile-foto{
+    margin-top: 100px;
+    height: 360px;
+    
+    
+    
+}
+.center{
+    text-align: center;
+    align-items: center;
+}
+.center-img{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.skill-row img{
+    width: 25%;
+}
+#btc {
+    
+    border-radius: 32em;
+    margin-right: 30px;
+    float: left; 
+    /* Float bir resmin yanına yazı eklemek için kullanabilirsin */
+}
+#kitap{
+ float: right;
+ margin-left: 30px;
+}
+
+
+
+
+
+.contact-me{
+    text-align: center;
+}
+.contact-me a{
+    position: relative;
+    top: 25px;
+    
+}
+
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.skill-row p{
+    line-height: 2;
+}
+
+.bottom-container{
+    margin-top: 75px;
+    padding: 20px;
+    background-color: #66BFBF;
+    color: #11999E;
+    
+}
+.footer-link{
+    padding: 20px;
+}
+.bottom-container p{
+    color:#EAF6F6;
+}
+
+
+/* Buton */
+.BUTTON_CNJ {
+    font-family: sans-serif;
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_CNJ:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
